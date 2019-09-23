@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <title>Weather app!!!!!</title>
+  <link rel='stylesheet' type='text/css' href='./style/reset.css'>
+  <link rel='stylesheet' type='text/css' href='./style/style.css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
+</head>
+<body>
+  <div id='searchBar'>
+    <input type='search' id='zipcode'>
+    <button id='search'><i class="material-icons">search</i></button>
+  </div>
+  <hr>
+  <div id ='weatherInfo' class="pure-g">
+    <div id='basicInfo' class="pure-u-1-2">
+      <h2 id='city'></h2>
+      <h1 id='temp'></h1>
+      <p id='desc'></p>
+    </div>
+    
+    <div id='minMax' class="pure-u-1-2">
+      <p id='min'>Min</p>
+      <h1 id='minTemp'></h3>
+
+      <p id='max'>Max</p>
+      <h1 id='maxTemp'></h3>
+
+    </div>
+  </div>
+  <script src='./main.js'></script>
+</body>
+</html>
